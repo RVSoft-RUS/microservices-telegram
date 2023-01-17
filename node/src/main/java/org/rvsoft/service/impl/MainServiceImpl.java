@@ -11,13 +11,13 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 
 @Service
 public class MainServiceImpl implements MainService {
-//    private final RawDataDao rawDataDao;
+    private final RawDataDao rawDataDao;
     private final ProducerService producerService;
 
     public MainServiceImpl(
-//            RawDataDao rawDataDao,
+            RawDataDao rawDataDao,
             ProducerService producerService) {
-//        this.rawDataDao = rawDataDao;
+        this.rawDataDao = rawDataDao;
         this.producerService = producerService;
     }
 
@@ -37,6 +37,6 @@ public class MainServiceImpl implements MainService {
         RawData rawData = RawData.builder()
                 .event(update)
                 .build();
-//        rawDataDao.save(rawData);
+        rawDataDao.save(rawData);
     }
 }

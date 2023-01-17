@@ -32,7 +32,7 @@ public class UpdateController {
             return;
         }
 
-        if (update.getMessage() != null) {
+        if (update.hasMessage()) {
             distributeMessageByType(update);
         } else {
             log.error("Unsupported message type is received: " + update);
