@@ -1,4 +1,4 @@
-package org.rvsoft.model;
+package org.rvsoft.entity;
 
 public class RabbitQueue {
     public static final String DOC_MESSAGE_UPDATE = "doc_message_update";

@@ -324,3 +324,30 @@ Arguments: []
 2023-01-17 09:45:00 DEBUG impl.ConsumerServiceImpl:25 - NODE: Text message is received
 2023-01-17 10:09:40 DEBUG impl.UpdateProducerImpl:20 - Ghj
 2023-01-17 10:09:40 DEBUG impl.ConsumerServiceImpl:25 - NODE: Text message is received
+2023-01-17 13:41:22 INFO  aspect.LoggerAspect:22 - Method called: getBotToken
+Proxy: org.rvsoft.controller.TelegramBot@68631b1d
+Target: org.rvsoft.controller.TelegramBot@68631b1d
+Arguments: []
+
+2023-01-17 13:41:22 INFO  aspect.LoggerAspect:22 - Method called: getBotUsername
+Proxy: org.rvsoft.controller.TelegramBot@68631b1d
+Target: org.rvsoft.controller.TelegramBot@68631b1d
+Arguments: []
+
+2023-01-17 13:41:23 INFO  aspect.LoggerAspect:22 - Method called: getBotToken
+Proxy: org.rvsoft.controller.TelegramBot@68631b1d
+Target: org.rvsoft.controller.TelegramBot@68631b1d
+Arguments: []
+
+2023-01-17 13:41:23 INFO  aspect.LoggerAspect:22 - Method called: getBotUsername
+Proxy: org.rvsoft.controller.TelegramBot@68631b1d
+Target: org.rvsoft.controller.TelegramBot@68631b1d
+Arguments: []
+
+2023-01-17 13:41:23 INFO  aspect.LoggerAspect:22 - Method called: getBotUsername
+Proxy: org.rvsoft.controller.TelegramBot@68631b1d
+Target: org.rvsoft.controller.TelegramBot@68631b1d
+Arguments: []
+
+2023-01-17 13:41:41 DEBUG impl.UpdateProducerImpl:20 - Gufufuf
+2023-01-17 13:41:42 DEBUG impl.ConsumerServiceImpl:25 - NODE: Text message is received

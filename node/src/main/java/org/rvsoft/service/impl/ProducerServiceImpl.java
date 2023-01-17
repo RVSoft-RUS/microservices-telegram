@@ -5,7 +5,7 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 
-import static org.rvsoft.model.RabbitQueue.ANSWER_MESSAGE;
+import static org.rvsoft.entity.RabbitQueue.ANSWER_MESSAGE;
 
 @Service
 public class ProducerServiceImpl implements ProducerService {

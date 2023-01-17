@@ -8,7 +8,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
-import static org.rvsoft.model.RabbitQueue.*;
+import static org.rvsoft.entity.RabbitQueue.*;
 
 @Component
 @Log4j
