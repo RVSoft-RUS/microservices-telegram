@@ -89,3 +89,40 @@ Arguments: []
 2022-10-27 13:44:14 INFO  controller.TelegramBot:36 - tyolky40_bot
 2022-10-27 13:44:14 INFO  controller.TelegramBot:42 - 5393283581:AAEnVYvLzpBIxABcPDX6U7bkhUgwqZsQ4Ys
 2022-10-27 13:44:14 ERROR controller.TelegramBot:43 - 5393283581:AAEnVYvLzpBIxABcPDX6U7bkhUgwqZsQ4Ys
+2023-01-17 22:15:08 INFO  aspect.LoggerAspect:22 - Method called: getBotToken
+Proxy: org.rvsoft.controller.TelegramBot@2c2c3947
+Target: org.rvsoft.controller.TelegramBot@2c2c3947
+Arguments: []
+
+2023-01-17 22:15:08 INFO  aspect.LoggerAspect:22 - Method called: getBotUsername
+Proxy: org.rvsoft.controller.TelegramBot@2c2c3947
+Target: org.rvsoft.controller.TelegramBot@2c2c3947
+Arguments: []
+
+2023-01-17 22:15:09 INFO  aspect.LoggerAspect:22 - Method called: getBotToken
+Proxy: org.rvsoft.controller.TelegramBot@2c2c3947
+Target: org.rvsoft.controller.TelegramBot@2c2c3947
+Arguments: []
+
+2023-01-17 22:15:10 INFO  aspect.LoggerAspect:22 - Method called: getBotUsername
+Proxy: org.rvsoft.controller.TelegramBot@2c2c3947
+Target: org.rvsoft.controller.TelegramBot@2c2c3947
+Arguments: []
+
+2023-01-17 22:15:10 INFO  aspect.LoggerAspect:22 - Method called: getBotUsername
+Proxy: org.rvsoft.controller.TelegramBot@2c2c3947
+Target: org.rvsoft.controller.TelegramBot@2c2c3947
+Arguments: []
+
+2023-01-17 22:15:52 DEBUG impl.UpdateProducerImpl:20 - Прр
+2023-01-17 22:17:10 DEBUG impl.UpdateProducerImpl:20 - /start
+2023-01-17 22:18:25 DEBUG impl.UpdateProducerImpl:20 - /start
+2023-01-17 22:18:32 DEBUG impl.UpdateProducerImpl:20 - /cancel
+2023-01-17 22:18:53 DEBUG impl.UpdateProducerImpl:20 - /help
+2023-01-17 22:19:34 DEBUG impl.UpdateProducerImpl:20 - /start
+2023-01-17 22:20:10 DEBUG impl.UpdateProducerImpl:20 - /cancel
+2023-01-17 22:20:21 DEBUG impl.UpdateProducerImpl:20 - /registration
+2023-01-17 22:20:40 DEBUG impl.UpdateProducerImpl:20 - /cancel
+2023-01-17 22:20:47 DEBUG impl.UpdateProducerImpl:20 - /dfg
+2023-01-17 22:20:50 DEBUG impl.UpdateProducerImpl:20 - /help
+2023-01-17 22:21:54 DEBUG impl.UpdateProducerImpl:20 - 
