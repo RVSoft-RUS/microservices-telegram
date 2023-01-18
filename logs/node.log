@@ -6275,3 +6275,4 @@ Arguments: []
 2023-01-18 12:58:48 DEBUG impl.ConsumerServiceImpl:25 - NODE: Text message is received
 2023-01-18 13:18:16 DEBUG impl.ConsumerServiceImpl:33 - NODE: Doc message is received
 2023-01-18 13:21:34 DEBUG impl.ConsumerServiceImpl:33 - NODE: Doc message is received
+2023-01-18 16:08:36 DEBUG impl.ConsumerServiceImpl:40 - NODE: Photo message is received

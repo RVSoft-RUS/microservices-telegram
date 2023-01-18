@@ -183,3 +183,29 @@ Arguments: []
 2023-01-18 12:58:48 DEBUG impl.UpdateProducerImpl:20 - /registration
 2023-01-18 13:18:15 DEBUG impl.UpdateProducerImpl:20 - 
 2023-01-18 13:21:34 DEBUG impl.UpdateProducerImpl:20 - 
+2023-01-18 16:07:22 INFO  aspect.LoggerAspect:22 - Method called: getBotToken
+Proxy: org.rvsoft.controller.TelegramBot@53dd42d6
+Target: org.rvsoft.controller.TelegramBot@53dd42d6
+Arguments: []
+
+2023-01-18 16:07:22 INFO  aspect.LoggerAspect:22 - Method called: getBotUsername
+Proxy: org.rvsoft.controller.TelegramBot@53dd42d6
+Target: org.rvsoft.controller.TelegramBot@53dd42d6
+Arguments: []
+
+2023-01-18 16:07:24 INFO  aspect.LoggerAspect:22 - Method called: getBotToken
+Proxy: org.rvsoft.controller.TelegramBot@53dd42d6
+Target: org.rvsoft.controller.TelegramBot@53dd42d6
+Arguments: []
+
+2023-01-18 16:07:24 INFO  aspect.LoggerAspect:22 - Method called: getBotUsername
+Proxy: org.rvsoft.controller.TelegramBot@53dd42d6
+Target: org.rvsoft.controller.TelegramBot@53dd42d6
+Arguments: []
+
+2023-01-18 16:07:24 INFO  aspect.LoggerAspect:22 - Method called: getBotUsername
+Proxy: org.rvsoft.controller.TelegramBot@53dd42d6
+Target: org.rvsoft.controller.TelegramBot@53dd42d6
+Arguments: []
+
+2023-01-18 16:08:35 DEBUG impl.UpdateProducerImpl:20 - 

@@ -4,6 +4,7 @@ import lombok.extern.log4j.Log4j;
 import org.rvsoft.dao.AppUserDAO;
 import org.rvsoft.dao.RawDataDao;
 import org.rvsoft.entity.AppDocument;
+import org.rvsoft.entity.AppPhoto;
 import org.rvsoft.entity.AppUser;
 import org.rvsoft.entity.RawData;
 import org.rvsoft.entity.enums.UserState;
@@ -99,10 +100,19 @@ public class MainServiceImpl implements MainService {
             return;
         }
 
-        //TODO добавить сохр. фото
-        String answer = "Фото успешно загружено!\n" +
-                "Ссылка жля скачивания: http://test.ru/get-photo/778";
-        sendAnswer(answer, chatId);
+        try {
+            AppPhoto photo = fileService.processPhoto(update.getMessage());
+            //TODO добавить сохр. документов
+            String answer = "Фото успешно загружено!\n" +
+                    "Ссылка жля скачивания: http://test.ru/get-photo/778";
+            sendAnswer(answer, chatId);
+        } catch (UploadFileException ex) {
+            log.error(ex);
+            String error = "К сожалению загрузка не удалась. Повторите попытку позже.";
+            sendAnswer(error, chatId);
+        }
+
+
     }
 
     private boolean isNotAllowToSendContent(Long chatId, AppUser appUser) {
